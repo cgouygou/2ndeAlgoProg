@@ -26,8 +26,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/lightbulb-outline
         name: Mode sombre
@@ -35,8 +35,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/lightbulb
         name: Mode clair
