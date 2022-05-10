@@ -60,7 +60,7 @@ Si on affecte une nouvelle valeur à la variable `pv`, alors l'ancienne dispara�
     score_j2 + 200
     ```
     
-    La variable `score_j1` contient 100, et la variable `score_j2` contient toujours 0, car le résultat du calcul ligne 4 n'a pas été mémorisé... s'il n'est pas affecté à une variable, il est perdu.
+    La variable `score_j1` contient 100, et la variable `score_j2` contient toujours 0, car le résultat du calcul ligne 4 n'a pas été mémorisé... **S**'il n'est pas affecté à une variable, il est perdu.**
 
 ## 2. Expressions et évaluation  
 
@@ -120,7 +120,7 @@ En voici quelques uns, que nous découvrirons au fil de l'année :
     |`int`|entier|`42`|
     |`float`|flottant (décimal)|`3.1416`|
     |`str`|chaîne de caractères (string)|`"Maths"`|
-    |`bool`|booléen (True ou False)|True|
+    |`bool`|booléen (True ou False)|`True`|
     |`function`|fonction| `print`|
 
 !!! tip "Connaître le type d'une variable"
