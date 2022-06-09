@@ -12,6 +12,20 @@ La fonction `randint(a, b)` du module `random` permet de choisir pseudo-aléatoi
 
 Pour simuler le lancer d'un dé, on pourra donc utiliser `randint(1, 6)`.
 
+```python
+>>> randint(1, 6)
+2
+>>> randint(1, 6)
+5
+```
+
+
+```python linenums='1' title="À compléter dans l'éditeur"
+from random import randint
+
+de1 = randint(1, 6)
+```
+
 1. Créer une deuxième variable simulant le lancer d'un deuxième dé, puis afficher la somme des deux dés.
 
 2. Créer une boucle pour simuler 100 lancers de deux dés.
