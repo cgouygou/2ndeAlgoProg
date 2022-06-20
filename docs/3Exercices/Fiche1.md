@@ -98,9 +98,46 @@ La différence entre les deux programmes précédents, c'est qu'au premier on a 
             a = 2 * a
             print(a)
             ```
-            
+        
     === "Correction" 
         {{ correction(False, 
         "
+        "
+        ) }}
+
+!!! tip "Incrémentation"
+    Dans le **programme 2** précédent, l'instruction `a = a + 1` mérite toute notre attention...
+
+    Observée avec des yeux de mathématicien, la précédente instruction est une horreur.
+
+    ![](../images/memex.png){: .center width=480} 
+
+    Vue avec des yeux d'informaticien, voilà comment est interprétée la commande :
+
+    1. On évalue la **partie droite de l'égalité**, c'est-à-dire l'expression `a + 1`.
+    2. On va donc chercher le contenu de la variable `a`. Si celle-ci n'existe pas, un message d'erreur est renvoyé.
+    3. On additionne 1 au contenu de la variable `a`.
+    4. On *écrase* le contenu actuel de la variable `a` avec la valeur obtenue au 3.
+
+    À la fin de ces opérations, la variable `a` a bien augmenté de 1.
+
+    Cette procédure, appelée **incrémentation**, est très très classique, il faut la maîtriser parfaitement car on va la retrouver très souvent!
+
+!!! example "{{ exercice() }}"
+    === "Énoncé" 
+        Trouver à quoi correspondent les opérateurs `//` et `%` en exécutant plusieurs fois la cellule suivante en modifiant les valeurs des variables `a` et `b`:
+
+        ```python linenums='1'
+        a = 42
+        b = 5
+        print(a // b)
+        print(a % b)
+        ```
+        
+    === "Correction" 
+        {{ correction(True, 
+        "
+        - l'opérateur `//` donne le **quotient** dans la division euclidienne;
+        - l'opérateur `%` donne le **reste** dans la division euclidienne.
         "
         ) }}
