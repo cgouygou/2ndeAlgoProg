@@ -83,7 +83,18 @@ False
         "
         ) }}
 
-
+!!! example "{{ exercice() }}"
+    === "Énoncé" 
+        Utiliser le programme précédent pour obtenir la liste des diviseurs de :
+        
+        1. 1445
+        2. 115940
+        3. 1655769
+    === "Correction" 
+        {{ correction(False, 
+        "
+        "
+        ) }}
 
 ## 2- Nombres premiers
 
@@ -122,6 +133,7 @@ False
         - on commence la recherche à 2 et on s'arrête à $n-1$, attention donc à bien paramétrer le `#!py range` de la boucle `#!py  for` . On ne s'embête pas ici avec la racine carrée, tant pis si on fait faire trop de calculs à l'ordinateur, il est là pour ça, ne vous inquiétez pas il ne râlera pas.
         - remplacer dans le programme précédent l'instruction `#!py print(k)` par `#!py return False`.
         - **après la boucle**, si le programme en arrive là, c'est qu'aucun diviseur n'a été trouvé... que faut-il alors que la fonction renvoie?
+        - vérifier que la fonction donne le bon résultat sur quelques nombres simples.
     === "Correction" 
         {{ correction(False, 
         "
@@ -134,6 +146,21 @@ False
         ) }}
 
     {{ IDEv() }}
+
+!!! example "{{ exercice() }}"
+    === "Énoncé" 
+        Utiliser dans la console la fonction précédente pour déterminer si les nombres suivants sont premiers ou non.
+
+        1. 157
+        2. 2963
+        3. 6219
+        4. 44773
+        5. 10902070213
+    === "Correction" 
+        {{ correction(False, 
+        "
+        "
+        ) }}
     
 
 
