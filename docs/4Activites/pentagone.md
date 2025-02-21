@@ -1,4 +1,4 @@
-# Pentagone ou pas?
+# Régulier ou pas?
 
 !!! abstract "Objectif"
     Il s'agit de répondre à la question 2 de l'exercice 6 de la feuille «Chap.05 : Géométrie Plane».
