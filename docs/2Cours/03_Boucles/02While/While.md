@@ -4,7 +4,7 @@ La boucle `for` s'utilise lorsqu'on connaît à l'avance le nombre de répétiti
 
 Mais il arrive fréquemment qu'on doive répéter des instructions un *certain* nombre de fois, qui n'est pas connu à l'avance. On a donc besoin d'une boucle **non bornée**,qui est en Scratch:
 
-![](../../../images/RepeterForVide.png){: .center} 
+![](../../../images/RepeterJusquaVide.png){: .center} 
 
 
 En Python, c'est l'instruction `while`,  qui s'éxécutera tant qu'une condition est vraie et qui stoppera dès que cette condition ne le sera plus.
