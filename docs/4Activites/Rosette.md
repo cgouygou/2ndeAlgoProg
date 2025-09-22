@@ -15,7 +15,6 @@ def carre():
         left(90)
     up()
 
-color('red')
 goto(-200,0)
 clear()
 width(2)
@@ -24,9 +23,7 @@ for i in range(4):
     carre()
     forward(cote)
     cote = cote + 20
-    if cote > 90:
-        color('blue')
-
+    
 ```
 
 !!! example "À vous de jouer!"
